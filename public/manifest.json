@@ -1,0 +1,13 @@
+{
+  "name": "PS5 Emulator for PC Wiki",
+  "short_name": "PS5 Emulator for PC",
+  "description": "Fan tracker for PS5 emulation on PC — Kyty PS5 and every real project, the compatible games list, PC requirements and safe download guidance.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e16",
+  "theme_color": "#2e6cf6",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

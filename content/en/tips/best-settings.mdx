@@ -1,0 +1,47 @@
+export const metadata = {
+  title: "Best Settings for PS5 Emulation: The Kyty Tuning Guide",
+  description: "The settings that matter for a PS5 Emulator for PC — renderer, resolution scaling, upscaling and controller config for the best real performance.",
+  category: "tips",
+  date: "2026-10-15",
+  badge: "Tuning",
+};
+
+Settings are where a working PS5 Emulator for PC becomes a good one — and where most first sessions go wrong, usually by stacking demands the hardware cannot cash. This tuning guide covers the configuration that actually moves results: renderer selection, resolution strategy, upscaling, and the per-game settings discipline that separates smooth sessions from slideshow disappointments. Written against Kyty's current configuration surface, the principles apply across the scene's real projects.
+
+## Start From the Right Baseline
+
+Before touching anything: update to the current release (the scene's optimizations land weekly, and tuning an old build wastes your effort), verify your renderer is set to your actual GPU (the wrong-renderer auto-guess is the single most common "why is this slow" cause), and pick a known-compatible game as your tuning subject — you cannot distinguish settings problems from compatibility problems on a title the emulator does not properly support yet. The compatible list's playable tier is your tuning bench.
+
+## Resolution: Native First, Always
+
+The discipline that fixes most sessions: **run at native resolution until the game is proven, then scale upward one step at a time**. Resolution multipliers are the most expensive settings in any emulator, and stacking them on top of a marginal framerate is how first impressions die — a game that would hold 50+ FPS native gets tuned into the thirties at 2x, and the settings menu gets blamed for what the ambition did. The working sequence: native and confirm your baseline framerate; if comfortable headroom exists, step up one multiplier; re-test; repeat until headroom runs out. The reverse sequence — max everything, then troubleshoot — spends your first evening diagnosing your own settings.
+
+## Upscaling: The Free Performance When Supported
+
+Where the emulator's upscaling options apply, they are the intelligent alternative to raw resolution: render at a manageable internal resolution and let upscaling present it larger, buying visual scale without the full performance bill. The trade is picture character — upscaling artifacts vary by game and by scaler — and the setting is per-game worth evaluating rather than globally choosing: some titles wear it invisibly, some show it in fine detail and foliage. Test pattern: your proven native baseline, upscaling enabled, compare — if the eye does not catch the artifacts and the framerate breathes easier, you have found free performance; if the artifacts shout, you have found why the option is per-game.
+
+## The Per-Game Settings Discipline
+
+Emulation at this stage is a per-game practice — settings that make one title sing can hobble another, and the community's per-game findings (in the project trackers and compatibility notes) are worth more than any global theory. The discipline: keep a light per-game configuration habit — note what worked for titles you play, check the community's per-game notes when something underperforms, and resist global conclusions from single-game results. The per-game settings worth knowing by name: shader/compile caching options (first-run stutter is often compilation, not weakness — judge performance on the second visit to a scene), audio buffering (the latency-vs-artifact dial for cutscene desync), and any per-game patches or fixes the project ships for specific titles.
+
+## Controllers: Ten Seconds That Save an Evening
+
+Configure input before launching anything: open the controller settings, confirm your pad is detected and the mapping preview responds to every button and stick, and save. The classic first-session failure mode — a PS5 Emulator for PC running beautifully under controls that do not respond — is ten seconds of prevention. Where games expect the DualSense's layout specifically, the pad mapping's touchpad and gyro entries deserve the extra glance; where your controller is a common modern pad, near-automatic mapping plus a verification pass covers it.
+
+## When Performance Disappoints Anyway
+
+The diagnostic ladder, in order: renderer correct for your GPU (still the number one answer); resolution and multipliers back to native (prove the floor); the compatible list's per-game notes for known performance statuses (some titles are simply in their heavy era); CPU-side check (background load, power plan, thermals — translation work exposes marginal cooling); and only then the community threads with your specific game, build and hardware — the scene's collective findings are deep, and your combination is rarely unprecedented. What the ladder prevents is the classic error of tuning settings endlessly against a problem that lives somewhere else in the chain.
+
+## FAQ
+
+**What are the best global settings?** Renderer verified, everything else modest: native resolution, defaults, per-game from there. Global settings set the floor; per-game settings win the sessions.
+
+**Why is my first launch stuttery?** Shader compilation on first runs is normal — subsequent visits to the same scenes run smooth. Judge performance on the second pass, not the first.
+
+**Does upscaling hurt image quality?** Depends on the scaler, the game and the eye — often invisibly, sometimes visibly. Per-game comparison against your native baseline is the only honest test.
+
+**Why do settings differ between games?** Because compatibility is per-game at this stage of the scene — the same option can be a fix for one title and a hobble for the next. Community per-game notes are the map.
+
+**Are 'optimal settings' lists safe to copy?** Copy from sources demonstrating your hardware class, verify against your own baseline, and distrust anything promising universal max-everything — that genre of advice is the settings equivalent of the fake emulators.
+
+Tune the floor, scale the ceiling, and let the compatible list set your expectations. Smooth seas.

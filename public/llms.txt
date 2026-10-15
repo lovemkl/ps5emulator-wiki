@@ -1,0 +1,18 @@
+# PS5 Emulator for PC Wiki
+
+> Fan tracker for PS5 emulation on PC — Kyty PS5 and every real project, the compatible games list, PC requirements and safe download guidance.
+
+Site: https://ps5emulator.wiki
+
+## About
+Fan tracker for PS5 emulation on PC — Kyty PS5 and every real project, the compatible games list, PC requirements and safe download guidance.
+
+## Guides
+- [PS5 Emulator for PC: The Complete 2026 Guide](https://ps5emulator.wiki/guide/ps5-emulator-for-pc-guide): What a PS5 emulator for PC can really do in 2026 — which projects are real, how far emulation has come and what to expect next.
+- [How to Run PS5 Games on PC: Kyty Setup Walkthrough](https://ps5emulator.wiki/guide/how-to-run-ps5-games-on-pc): The step-by-step Kyty PS5 setup — installing the emulator, configuring firmware and pads, and loading your first game.
+- [Kyty PS5: The Emulator Leading the Race](https://ps5emulator.wiki/emulators/kyty-ps5): Kyty PS5 profiled — the front-runner of PS5 emulation, its compatibility pace and what hardware it wants.
+- [AnyPS5, SharpEmu and Every Other Project Compared](https://ps5emulator.wiki/emulators/anyps5-and-sharpemu): Every real PS5 emulator project compared — AnyPS5, SharpEmu and the rest, tracked and ranked by reality.
+- [The PS5 Emulator Compatible Games List](https://ps5emulator.wiki/compatibility/compatible-games-list): Which PS5 games actually run on PC emulators — the live compatibility list, updated as progress lands.
+- [PC Requirements for PS5 Emulation: What You Need](https://ps5emulator.wiki/compatibility/pc-requirements): The hardware truth for PS5 emulation — real-world results from RTX 3050 to RTX 5070 and the minimum that makes sense.
+- [Safe Downloads: Avoiding Fake PS5 Emulators](https://ps5emulator.wiki/tips/safe-download-guide): The fake-emulator problem explained — how to spot scam PS5 emulators like PCSX5 and download only from real sources.
+- [Best Settings for Kyty PS5: Performance Tuning](https://ps5emulator.wiki/tips/best-settings): The settings that matter — graphics, upscaling and pad configuration to get PS5 games running their best on your PC.

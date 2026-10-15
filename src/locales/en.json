@@ -1,0 +1,243 @@
+{
+  "site": {
+    "name": "PS5 Emulator for PC Wiki",
+    "shortName": "PS5 Emulator for PC",
+    "tagline": "Fan-Made Tracker",
+    "description": "Fan tracker for PS5 emulation on PC — Kyty PS5 and every real project, the compatible games list, PC requirements and safe download guidance.",
+    "legalNotice": "Non-official fan tracker. Not affiliated with Sony or any emulator project."
+  },
+  "nav": {
+    "guides": "Guides",
+    "emulators": "Emulators",
+    "compatibility": "Compatibility",
+    "tips": "Safety",
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
+  "home": {
+    "meta": {
+      "title": "PS5 Emulator for PC: Real Progress, Games & Safety",
+      "description": "The PS5 Emulator for PC tracker — Kyty PS5 and every real project, the live compatible games list, hardware results and fake-emulator safety guidance."
+    },
+    "hero": {
+      "eyebrow": "Fan-Made Tracker",
+      "title": "PS5 Emulator for PC",
+      "description": "PS5 emulation is really happening. Kyty PS5 leads a field of genuine projects running real commercial games on real hardware — a souls-class flagship at 54 FPS on an RTX 4060, a mascot platformer on an RTX 3050. This tracker covers the whole scene: every real emulator profiled and compared, the live compatible games list, tested PC requirements, setup walkthroughs, and the safety guidance that filters the fake-emulator epidemic out of your search results.",
+      "primaryCta": "Read the Complete Guide",
+      "secondaryCta": "Watch Kyty in Action",
+      "tertiaryCta": "All Guides",
+      "stats": ["Kyty PS5 Leads", "Live Games List", "RTX 4060 Tested", "Fake Filter Included"]
+    },
+    "updates": {
+      "title": "Scene Tracker",
+      "browse": "Browse All Guides",
+      "viewAll": "View All"
+    },
+    "start": {
+      "eyebrow": "Get Running In Four Steps",
+      "title": "Your First Session in the Scene",
+      "cards": [
+        { "number": "1", "title": "Check Your Hardware", "description": "Locate your machine on the tested-results curve before downloading anything — the RTX 4060-class zone is where comfort lives." },
+        { "number": "2", "title": "Verify Your Sources", "description": "Official channels only, every time — the fake-emulator epidemic targets exactly this search. Five minutes of checklist beats an afternoon of malware." },
+        { "number": "3", "title": "Install Kyty", "description": "Compact release, firmware pointing, controller mapping — a working PS5 Emulator for PC in one sitting with the walkthrough." },
+        { "number": "4", "title": "Start on the List", "description": "Your first game should be a known-compatible title — prove the setup works before exploring the compatibility frontier." }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Most-Read This Week",
+      "title": "Trending Now",
+      "quickLinks": ["Kyty", "Games List", "Safety", "Hardware"],
+      "cards": [
+        { "title": "The Compatible Games List", "description": "What really runs, on what hardware — the scene's scoreboard, live and updated as releases land." },
+        { "title": "Kyty PS5 Profile", "description": "The front-runner in depth — why it leads, what running it is like, and what its trajectory means." },
+        { "title": "Fake Emulator Filter", "description": "The detection checklist that removes the scam epidemic from your downloads — permanently, in five minutes." },
+        { "title": "PC Requirements", "description": "Real tested results from RTX 3050 to RTX 5070 — find your machine on the curve before you download." }
+      ]
+    },
+    "aboutGame": {
+      "title": "What Is PS5 Emulation on PC?",
+      "paragraphs": [
+        "A PS5 Emulator for PC is software that makes a PC run PlayStation 5 games — and in 2026 it stopped being a fantasy search term. Real projects led by Kyty PS5, with AnyPS5 and SharpEmu pursuing parallel approaches, are running commercial PS5 titles on ordinary gaming hardware at genuinely playable framerates, with the compatible list growing at the fastest pace in the scene's young history.",
+        "This tracker is the fan-built companion to that scene: every real project profiled and compared, the live compatible games list, tested hardware requirements, complete setup walkthroughs, and the safety guidance the fake-emulator epidemic makes mandatory. Real emulators only — that is the whole editorial policy."
+      ],
+      "stats": [
+        { "label": "Front-Runner", "value": "Kyty PS5" },
+        { "label": "Real Projects", "value": "3 Tracked" },
+        { "label": "Tested GPUs", "value": "3050 to 5070" },
+        { "label": "Signature Result", "value": "54 FPS / RTX 4060" },
+        { "label": "Scene Status", "value": "Early & Fast" },
+        { "label": "Price", "value": "Free (Real Ones)" }
+      ],
+      "cta": "Explore All Guides"
+    },
+    "explore": {
+      "title": "Everything the Scene, Mapped",
+      "description": "Guides, emulators, compatibility and safety — the complete toolkit.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Compatible Games List",
+          "description": "The scene's scoreboard, live.",
+          "href": "/compatibility/compatible-games-list",
+          "displayType": "code-cards",
+          "highlights": [
+            { "label": "Live List", "detail": "Playable, runs and boots tiers with real hardware results — updated as releases land", "badge": "Updated" }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "The Complete Guide",
+          "description": "The full orientation.",
+          "href": "/guide/ps5-emulator-for-pc-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Which projects are real — and the fakes filtered out" },
+            { "label": "2", "detail": "How far emulation has actually come in 2026" },
+            { "label": "3", "detail": "The legal frame, stated once and clearly" }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Setup Walkthrough",
+          "description": "Running in one sitting.",
+          "href": "/guide/how-to-run-ps5-games-on-pc",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Install Kyty from verified channels only" },
+            { "label": "2", "detail": "Firmware, directories and controller configuration" },
+            { "label": "3", "detail": "First game from the compatible list — prove the chain" }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Kyty PS5 Profile",
+          "description": "The front-runner in depth.",
+          "href": "/emulators/kyty-ps5",
+          "displayType": "tier-grid",
+          "highlights": [
+            { "label": "S", "detail": "Compatibility velocity — the steepest curve in the scene" },
+            { "label": "A", "detail": "The head start — PS4 groundwork converted to pace" },
+            { "label": "B", "detail": "Documentation density — the flywheel that compounds" },
+            { "label": "C", "detail": "Early-days caveats — honest about what glitches" }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "All Real Emulators",
+          "description": "The field compared.",
+          "href": "/emulators/anyps5-and-sharpemu",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🔧", "detail": "AnyPS5 — the new-generation riser to watch" },
+            { "label": "🛠", "detail": "SharpEmu — the parallel path, credible and early" },
+            { "label": "🚫", "detail": "The fakes — why they never make the table" }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "PC Requirements",
+          "description": "Tested hardware results.",
+          "href": "/compatibility/pc-requirements",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🎯", "detail": "RTX 4060-class — the demonstrated sweet spot" },
+            { "label": "📉", "detail": "The cliff below entry-modern — no settings negotiate it" },
+            { "label": "🧠", "detail": "CPU and RAM — the underrated half of the bill" }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Safe Downloads",
+          "description": "The fake-emulator filter.",
+          "href": "/tips/safe-download-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "The completeness test — everything-works is impossible" },
+            { "label": "2", "detail": "The history test — no public development, no real project" },
+            { "label": "3", "detail": "The source test — official channels only, every time" }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Best Settings",
+          "description": "Tuning that moves results.",
+          "href": "/tips/best-settings",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🖥", "detail": "Renderer verified — the number one why-is-this-slow fix" },
+            { "label": "📐", "detail": "Native first, scale one step at a time" },
+            { "label": "🎮", "detail": "Controller config — ten seconds that save an evening" }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Quick answers to the most common questions about PS5 emulation.",
+      "items": [
+        { "question": "Is there a working PS5 Emulator for PC?", "answer": "Yes, in the emulation-scene sense: real projects (Kyty PS5, AnyPS5, SharpEmu) running a growing list of commercial games on real hardware. Not in the scam-ad sense of a finished everything-works product — that exists from no one." },
+        { "question": "Is PCSX5 real?", "answer": "No — it is the genre's most famous fake: a scam brand wearing an emulator's name. Every site promising a finished PS5 emulator that runs all games is a scam, with zero exceptions in the genre's history." },
+        { "question": "What hardware do I need?", "answer": "Recent mid-range or better: RTX 4060-class GPUs and contemporaries sit inside the demonstrated-results zone, with a modern CPU and 16-32GB RAM. The requirements guide maps tested configurations against real outcomes." },
+        { "question": "Is PS5 emulation legal?", "answer": "The emulator is legal; your usage decides everything else. Games and firmware must be your own, dumped from your own console — no legitimate project distributes either, and neither does this site." }
+      ]
+    },
+    "finalCta": {
+      "title": "The scene is moving weekly.",
+      "description": "The real projects, the live games list, tested hardware and the safety filter — everything to stand on the real side of PS5 emulation.",
+      "primary": "Read the Complete Guide",
+      "secondary": "Official Emulator Channels"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki Navigation",
+    "activeCodes": "Scene Tracker",
+    "updated": "Updated",
+    "viewAllCodes": "View all guides",
+    "inThisSection": "In this section",
+    "tableOfContents": "Table of Contents",
+    "nextSteps": "Next Steps",
+    "needHelp": "Need Help?",
+    "relatedReading": "Related Reading",
+    "relatedGuides": "Related Guides",
+    "readMore": "Read more",
+    "officialMedia": "Official media",
+    "home": "Home",
+    "noGuidesAvailable": "No guides available yet. Check back soon!"
+  },
+  "footer": {
+    "aboutTitle": "PS5 Emulator for PC Wiki",
+    "about": "PS5 Emulator for PC Wiki is an independent fan-built tracker covering PS5 emulation on PC — every real emulator project profiled, the live compatible games list, tested hardware results and safe download guidance.",
+    "quickLinks": "Quick Links",
+    "guides": "Guides",
+    "legal": "Legal",
+    "copyright": "2026 PS5 Emulator for PC Wiki. Not affiliated with Sony Interactive Entertainment or any emulator project. PlayStation and PS5 are trademarks of Sony Interactive Entertainment.",
+    "description": "The PS5 Emulator for PC tracker — real projects, live compatibility, tested hardware and safety.",
+    "playGame": "Official Channels",
+    "officialDiscord": "Community",
+    "officialYoutube": "r/emulation",
+    "epicStore": "GitHub",
+    "beginnerGuide": "Complete Guide",
+    "mapGuides": "Kyty PS5",
+    "weaponsGuides": "Games List",
+    "buildGuide": "Safe Downloads",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "Scene Guides",
+    "overviewDescription": "Every PS5 Emulator for PC guide — the complete orientation and the setup walkthrough that gets you running in one sitting."
+  },
+  "emulators": {
+    "overviewTitle": "Real Emulators",
+    "overviewDescription": "The real PS5 Emulator for PC field — Kyty PS5 profiled in depth, with AnyPS5 and SharpEmu tracked and compared as the scene evolves."
+  },
+  "compatibility": {
+    "overviewTitle": "Compatibility",
+    "overviewDescription": "The live compatible games list with real hardware results, plus the tested PC requirements that locate your machine on the curve."
+  },
+  "tips": {
+    "overviewTitle": "Safety & Settings",
+    "overviewDescription": "The fake-emulator detection checklist and the tuning guide — the practices that keep the scene safe and your sessions smooth."
+  }
+}
