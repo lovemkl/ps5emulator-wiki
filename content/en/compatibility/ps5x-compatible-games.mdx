@@ -1,0 +1,45 @@
+export const metadata = {
+  title: "PS5X Compatible Games on Xbox Series X: Live List",
+  description: "Every PS5 game verified booting on Xbox Series X through PS5X — status per title, performance notes and how the list grows with each Kyty sync.",
+  category: "compatibility",
+  date: "2026-10-19",
+  badge: "Live List",
+};
+
+The PS5X compatible games list is short, growing, and unlike any compatibility table this site tracks: these are PlayStation 5 titles verified booting on Xbox Series X hardware through the PS5X port of Kyty. This page tracks every confirmed title, what state it actually runs in, and how the list expands as the underlying emulator syncs with its desktop parent. Last verified October 19, 2026.
+
+## Verified Commercial Titles
+
+| Game | Status | Notes |
+|------|--------|-------|
+| GEX Trilogy | Boots, playable | The most stable of the first wave — the retro-styled platformer collection tolerates the translation layer's rough edges better than heavier engines |
+| Hellboy: Web of Wyrd | Boots, early state | The comic-styled roguelike loads and runs, with per-update variance in frame pacing |
+| Marvel Cosmic Invasion | Boots, early state | The beat-em-up joins the list in the newest wave; performance sits in proof-of-concept territory |
+
+Three titles is the honest number — enough to prove the pipeline works end to end, nowhere near enough to call the port usable. What the list lacks in length it makes up in significance: every entry here is a commercial PS5 binary running on rival console hardware, something with no precedent in console history.
+
+## Homebrew and Backups
+
+Alongside retail titles, PS5X runs PS5 homebrew software and user-supplied game backups. Homebrew is the proving ground: it boots faster, crashes more informatively, and every homebrew milestone on Xbox has historically mapped to a commercial compatibility unlock shortly after in the Kyty lineage. If you want to predict the next three additions to the commercial table, watch the homebrew changelog.
+
+## How the List Grows
+
+PS5X inherits compatibility from Kyty, the parent project. The mechanism is a sync, not a fork: when the desktop emulator lands a milestone — a new system call translated, a graphics API path fixed — the Xbox port folds that progress in on its next update. The practical consequence for this list: it moves in steps, not a steady crawl. Expect bursts of new verified titles after each sync, followed by quiet weeks while the next milestone is chased.
+
+That cadence mirrors exactly how the desktop scene behaved one step ahead: homebrew first, then a vanguard of lighter commercial engines, then the mid-weight titles that make up any platform's long tail. The games that boot first are always the ones that lean least on the console's exotic features — which is why a retro-styled trilogy leads a table no AAA open world appears in yet.
+
+## What "Boots" Means in Practice
+
+The status column deserves honesty. A game marked as booting on PS5X today means: it loads past the title screen and into gameplay on Xbox Series X hardware. It does not mean full speed, stable audio, working saves or a complete playthrough. Frame pacing is the most common rough edge; audio arriving late or dropped is second. The gap between "boots" and "playable" is where the next months of development will be spent, and titles will silently upgrade their status as syncs land — this table's Notes column is where those upgrades get recorded.
+
+For comparison, the desktop track is further along on exactly this curve: the state of PlayStation 5 software on PC — including which titles run best today — is covered in our [compatible games list](/compatibility/compatible-games-list), and the hardware you need for it in [PC requirements](/compatibility/pc-requirements).
+
+## Tracking Updates
+
+This page updates as verifications land. The three sources worth watching between visits: the Kyty changelog (the parent project's milestones arrive here first), community verification threads on the emulation forums, and the PS5X release notes themselves. Our [Kyty PS5 profile](/emulators/kyty-ps5) covers the desktop side of the same lineage, and the [PS5 games on Xbox guide](/guide/ps5-games-on-xbox-series-x) explains the full story of how any of this works at all.
+
+## Xbox Series X Versus a PC for PS5 Emulation
+
+A fair question the Xbox experiment raises: if the console is basically a fixed-spec x86 PC, why not skip the desktop entirely? The honest comparison has edges on both sides. The Xbox wins on consistency — every unit is identical, thermals are solved, and results verified on one console reproduce on all of them, which no PC configuration can promise. The desktop wins on everything else: hardware flexibility, the full keyboard of graphics options, day-one access to every Kyty milestone (the Xbox port receives progress on sync delay), and the entire surrounding tooling ecosystem that the PS5 Emulator for PC scene has built around testing, capturing and sharing results.
+
+The practical read for most readers: treat the two tracks as one story with two viewpoints. The desktop is where you go to actually run PS5 software today — start with the [safe setup walkthrough](/guide/how-to-run-ps5-games-on-pc) if that is your goal. The Xbox track is where you watch the architecture prove itself somewhere it was never invited, and where each new row in the table above quietly raises the ceiling for both.

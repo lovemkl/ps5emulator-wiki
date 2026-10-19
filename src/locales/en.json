@@ -17,17 +17,17 @@
   },
   "home": {
     "meta": {
-      "title": "PS5 Emulator for PC: Real Progress, Games & Safety",
-      "description": "The PS5 Emulator for PC tracker — Kyty PS5 and every real project, the live compatible games list, hardware results and fake-emulator safety guidance."
+      "title": "PS5 Emulator for PC and Xbox: PS5X, Games, Progress",
+      "description": "The PS5 Emulator tracker — Kyty PS5 on PC, the PS5X breakthrough running PS5 games on Xbox, the live compatible games list, hardware results and fake-emulator safety."
     },
     "hero": {
       "eyebrow": "Fan-Made Tracker",
       "title": "PS5 Emulator for PC",
-      "description": "PS5 emulation is really happening. Kyty PS5 leads a field of genuine projects running real commercial games on real hardware — a souls-class flagship at 54 FPS on an RTX 4060, a mascot platformer on an RTX 3050. This tracker covers the whole scene: every real emulator profiled and compared, the live compatible games list, tested PC requirements, setup walkthroughs, and the safety guidance that filters the fake-emulator epidemic out of your search results.",
+      "description": "PS5 emulation is really happening. Kyty PS5 leads a field of genuine projects running real commercial games on real hardware — a souls-class flagship at 54 FPS on an RTX 4060, a mascot platformer on an RTX 3050 — and now PS5X has taken the same engine onto the Xbox Series X, booting PS5 games on rival console hardware for the first time. This tracker covers the whole scene: every real emulator profiled and compared, the PS5X Xbox story, the live compatible games list, tested PC requirements, setup walkthroughs, and the safety guidance that filters the fake-emulator epidemic out of your search results.",
       "primaryCta": "Read the Complete Guide",
-      "secondaryCta": "Watch Kyty in Action",
+      "secondaryCta": "PS5X on Xbox Explained",
       "tertiaryCta": "All Guides",
-      "stats": ["Kyty PS5 Leads", "Live Games List", "RTX 4060 Tested", "Fake Filter Included"]
+      "stats": ["Kyty PS5 Leads", "PS5X Boots on Xbox", "Live Games List", "RTX 4060 Tested"]
     },
     "updates": {
       "title": "Scene Tracker",
@@ -49,9 +49,9 @@
       "title": "Trending Now",
       "quickLinks": ["Kyty", "Games List", "Safety", "Hardware"],
       "cards": [
+        { "title": "PS5X: PS5 Games on Xbox", "description": "The breakthrough story — Kyty's engine ported to Xbox Series X, how Developer Mode makes it legal, and which games boot today." },
         { "title": "The Compatible Games List", "description": "What really runs, on what hardware — the scene's scoreboard, live and updated as releases land." },
         { "title": "Kyty PS5 Profile", "description": "The front-runner in depth — why it leads, what running it is like, and what its trajectory means." },
-        { "title": "Fake Emulator Filter", "description": "The detection checklist that removes the scam epidemic from your downloads — permanently, in five minutes." },
         { "title": "PC Requirements", "description": "Real tested results from RTX 3050 to RTX 5070 — find your machine on the curve before you download." }
       ]
     },
