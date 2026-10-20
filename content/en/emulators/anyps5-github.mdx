@@ -1,0 +1,74 @@
+export const metadata = {
+  title: "AnyPS5 on GitHub: Repo, Install Tutorial & FAQ (44k★)",
+  description: "The real AnyPS5 GitHub repository — boykopovar/AnyPS5, the relinker that ports PS5 executables to Linux, Windows and Apple Silicon Macs. What it actually is, how to run your first conversion, input setup and every common question answered.",
+  category: "emulators",
+  date: "2026-10-20",
+  badge: "Guide",
+};
+
+Search interest in PS5 emulation keeps spiking, and with it one project's name keeps climbing: **AnyPS5**. Most people arriving here want the same three things — the real GitHub link, what the project actually does, and how to run it. This page covers all three with the facts straight from the repository, because AnyPS5 is also the most misdescribed project in the scene: it is **not** a traditional emulator at all, and half the confusion around it comes from sites that never read its own README.
+
+## The Real AnyPS5 GitHub Repository
+
+The project lives at [github.com/boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) — one repository, GPLv2-licensed, with a community tracker ([anyps5-roadmap](https://github.com/AlxcBTW/anyps5-roadmap)) and an active Discord linked from the README. If the link you followed leads anywhere else — a "premium edition", a downloader exe, a survey page — that is the fake. The real project has no installer to buy, no key to activate and nothing gated behind ad-walls; its [releases and build instructions](https://github.com/boykopovar/AnyPS5/blob/main/docs/dev/BUILD.md) are public, and there is even an official **web converter** at [boykopovar.github.io/AnyPS5](https://boykopovar.github.io/AnyPS5/) that processes files entirely in your browser.
+
+## What AnyPS5 Actually Is
+
+AnyPS5 is a **relinker**: a tool that converts a PS5 game's own executable into a native Linux or Windows executable, then lets it run directly on your hardware — [the README is explicit](https://github.com/boykopovar/AnyPS5) that there is "no emulation or separate runtime process". Instead of simulating a PS5 console like Kyty does, AnyPS5 translates the game binary itself and re-implements the PS5 system libraries it needs for dynamic linking. The converted title runs natively, which is why the project's requirements talk about your **CPU**, not about GPU drivers and firmware dumps the way traditional emulators do.
+
+The trade-offs follow directly from that design. On the plus side: no console-OS emulation layer, no per-title system firmware dance, and native speed on capable hardware — the relinker-only build even runs on macOS including Apple Silicon. On the careful side: a converted title runs natively, so the host CPU must supply the instruction extensions PS5 code assumes (AVX2, FMA, F16C, BMI1/2 and friends — the tool checks at startup and names anything missing before running game code), and per-game progress depends on how much of each title's library surface has been covered. Compatibility is tracked honestly per title on the community [blocker map](https://alxcbtw.github.io/anyps5-roadmap/), and test reports go into the repository's Game bring-up discussions — one thread per game.
+
+## Install Tutorial: First Conversion, Step by Step
+
+The short honest version first: **AnyPS5 does not ship games**. You supply the executable and its bundled modules from your own legally obtained copy; the tool converts them. With that said, the working loop from the official [usage documentation](https://github.com/boykopovar/AnyPS5/blob/main/docs/user/USAGE.md):
+
+1. **Get the tool.** Clone or download from the [GitHub repository](https://github.com/boykopovar/AnyPS5) and build it with the project's [build instructions](https://github.com/boykopovar/AnyPS5/blob/main/docs/dev/BUILD.md) — or skip the build entirely and open the [web converter](https://boykopovar.github.io/AnyPS5/), which runs in your browser and never uploads your files.
+2. **Prepare the input.** AnyPS5 needs a clean ELF executable with its bundled ELF modules in a `sce_module/` (or `sce_modules/` / `prx/`) folder beside it:
+
+   ```text
+   source/
+       input.elf
+       sce_module/
+           <bundled ELF modules>
+   ```
+
+   SELF/fSELF containers are skipped with a warning — the project ships `tools/unwrap_self.py` to unwrap decrypted containers first, and refuses anything that looks still-encrypted.
+3. **Run the relinker.** The core command takes an input and an output; the output format follows your flags:
+
+   ```sh
+   relinker source/input.elf app.elf          # Linux output
+   relinker --windows source/input.elf app.exe # Windows output
+   relinker --macos source/input.elf eboot     # macOS (x86-64, runs under Rosetta)
+   ```
+
+   On Apple Silicon, a title relinked with `--macos --to-rosetta` runs under Rosetta; `--to-intel` rewrites AMD-specific instructions for Intel hosts. Add `--windows-gui` for a windowed title instead of a console window.
+4. **Run the output.** The converted executable logs your CPU's instruction extensions at startup — if something is missing it stops and names your CPU and the gap, before any game code runs. Then check the title's row on the [blocker map](https://alxcbtw.github.io/anyps5-roadmap/) to see what stage the community has reached with it and which blockers remain.
+5. **Configure input.** SDL-mapped controllers work out of the box, analog sticks and triggers included; keyboard and mouse bindings are configured through an `anyps5-input.ini` file (format documented in the [input mapping guide](https://github.com/boykopovar/AnyPS5/blob/main/docs/user/INPUT_MAPPING.md)).
+
+## FAQ
+
+### Is AnyPS5 an emulator?
+
+No — and this is the single most common mistake. It is a relinker: it converts PS5 executables into native Linux/Windows/macOS executables and re-implements the system libraries they call. There is no emulated console, no virtual PS5, no firmware installation. That is also why it needs a capable CPU: the converted game runs on your hardware directly.
+
+### Where is the official AnyPS5 GitHub?
+
+[github.com/boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) is the only real repository. It is GPL-2.0 licensed, and its README links the Discord, the per-title blocker map and the browser-based converter. Sites offering "AnyPS5 premium", "AnyPS5 BIOS" or an installer exe are scams — the real project has nothing to sell and needs no BIOS.
+
+### Is AnyPS5 safe and legal?
+
+The project's [disclaimer](https://github.com/boykopovar/AnyPS5#disclaimer) is precise: it includes, distributes and requires no copyrighted software, firmware, cryptographic keys or proprietary libraries, and it exists for interoperability, research, preservation and compatibility. What you convert, you must own and use in line with your local laws. The web converter keeps files on your device — nothing is uploaded.
+
+### Can it run PS5 games yet?
+
+Progress is real but per-game. Some titles reach further than others, and the community blocker map tracks each one's stage, open blockers and library coverage — check it before expecting anything from a specific game. The scene's front-runner for raw compatibility remains [Kyty PS5](/emulators/kyty-ps5), which takes the traditional emulation route; our [full comparison](/emulators/anyps5-and-sharpemu) covers how the approaches differ.
+
+### Does it work on Mac?
+
+Yes, for the relinker: the relinker-only build runs on macOS including Apple Silicon, producing x86-64 Mach-O output that runs under Rosetta. This is unusual in the emulation-adjacent scene and worth knowing if your only machine is a Mac.
+
+### Why does a converted game refuse to start?
+
+Two common causes, both loudly reported by the tool rather than silently failing. First, missing CPU extensions — PS5 code assumes Zen 2-era instructions (AVX2, FMA, F16C, BMI1/2, LZCNT, MOVBE), and the startup check names your CPU and what it lacks. Second, a malformed input: SELF containers that needed unwrapping, missing `sce_module/` folders, or both `sce_module/` and `sce_modules/` present at once (the tools treats that as an error). Fix the input layout and retry.
+
+The GitHub link is real, the tool is real, and the honest path — own your games, convert your own files, check the blocker map — is the only path. Everything else wearing the AnyPS5 name is a fake.
