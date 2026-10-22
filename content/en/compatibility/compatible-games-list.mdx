@@ -1,47 +1,47 @@
 export const metadata = {
-  title: "The PS5 Emulator Compatible Games List: What Really Runs",
-  description: "Which PS5 games actually run on a PS5 Emulator for PC — the live compatibility list with real hardware results, updated as progress lands.",
-  category: "compatibility",
-  date: "2026-10-15",
-  badge: "Live List",
+  "title": "PS5 Game Compatibility: KytyPS5 and AnyPS5 Trackers",
+  "description": "Direct compatibility trackers for KytyPS5 and AnyPS5, with a checklist for reading game, build, hardware and test-stage evidence.",
+  "category": "compatibility",
+  "date": "2026-10-22",
+  "badge": "Reference guide"
 };
 
-The compatible games list is the scoreboard of PS5 emulation — the single page every searcher actually wants: what runs, how well, on what hardware. This is the live list. It tracks the state of PS5 Emulator for PC compatibility game by game, with the real-world results the community has demonstrated, and it is updated as emulator releases extend the playable frontier.
+This page links the current project trackers. **We have not independently tested these games and do not maintain a measured FPS database.** The previous version described unnamed game results without a supporting table; those claims have been removed. Source links reviewed on October 22, 2026.
 
-## How to Read This List
+## Find your game in the right tracker
 
-Every entry carries a status, and the statuses mean specific things in emulation-scene vocabulary. **Playable**: runs from start to finish at framerates a normal person accepts, with documented caveats at most. **Runs**: substantially playable with real compromises — notable glitches, audio issues or settings-bound performance. **Boots**: starts and reaches in-game content, but not yet a way to play through. The statuses move in one direction over time — boots become runs, runs become playable — and the speed of that movement across the whole list is the scene's headline statistic.
+| Project | Compatibility evidence | What to check |
+| --- | --- | --- |
+| KytyPS5 | [Community compatibility list](https://kytyps5.github.io/) linked by the [project README](https://github.com/KytyPS5/KytyPS5#current-status) | Exact title, tested build, reached stage, remaining issues and hardware |
+| AnyPS5 | [Per-game blocker map](https://alxcbtw.github.io/anyps5-roadmap/) linked by the [project README](https://github.com/boykopovar/AnyPS5#compatibility) | Per-title blockers and the underlying test report; a resolved blocker alone does not prove playability |
 
-Two honesty rules govern this page. First, statuses are attached to demonstrated, community-replicated results — not claims from release notes alone. Second, hardware context is mandatory: a result without the hardware that produced it is a rumor. When we say a game runs, we mean it runs on named, ordinary hardware you can buy.
+KytyPS5 and AnyPS5 use different approaches. Do not transfer a result from one project to the other. The older [InoriRus/Kyty repository](https://github.com/InoriRus/Kyty) is also distinct from KytyPS5; check the repository name before comparing reports.
 
-## The Current Playable Frontier
+## What a useful result contains
 
-The playable tier is where the action is, and its current shape tells the story of 2026's progress. Marquee single-player titles lead the list — the demonstration showcases the scene is known for include a current-generation souls-class flagship sustaining the mid-fifty frames-per-second range on an RTX 4060-class GPU, and a celebrated platformer-mascot title running comfortably on hardware as modest as an RTX 3050 6GB in community tests. Around the headliners, a growing band of mid-tier releases — action games, indies with PS5-native builds, and back-catalog titles — populate the playable tier with each Kyty release cycle.
+1. Search for the exact game title and edition. Match the game's region or title ID if the report provides it.
+2. Record the emulator or relinker build and the test date. Results can regress as well as improve.
+3. Separate a boot screen, menu, in-game scene and completed playthrough. A screenshot alone does not show completion.
+4. Read the operating system, CPU, GPU, driver and settings. An FPS number without this context is not a hardware recommendation.
+5. Open the linked report and check unresolved crashes, graphics, audio and saves before planning a playthrough.
 
-The pattern in the frontier's growth is as informative as the games themselves: compatibility is landing in waves rather than one-off surprises, with each emulator update promoting clusters of titles up the status ladder simultaneously. That is the signature of architectural problems getting solved once for many games — the healthiest possible signal for what comes next.
+## Record your comparison
 
-## What Runs With Caveats
+| Field | Record from the original report |
+| --- | --- |
+| Game and title ID | Exact title and edition |
+| Project and build | Repository plus version or commit |
+| Test date and link | Original report, not a reposted screenshot |
+| Hardware and settings | CPU, GPU, OS, drivers, resolution |
+| Stage reached | Boot, menu, in-game or completed |
+| Remaining problems | Crash locations, graphics, audio, saves |
 
-The runs tier is broader than the playable tier and moving faster — it is the list's leading indicator. Games here deliver real play sessions with real compromises: graphical artifacts in specific effects, audio desynchronization in cutscenes, framerates that hold or sag depending on settings and scene complexity. For scene participants, this tier is where the excitement lives — checking each release's notes to see which of your titles moved. For casual players, the honest guidance is to treat this tier as a preview: playable enough to visit, not reliable enough to plan a playthrough on, unless a specific game's caveats happen not to touch you.
+If a title is absent, its status is **not established by that tracker**. Absence does not prove that the game cannot run. Consult the project's reporting instructions before contributing a result.
 
-## The Boots Tier and the Pattern Below It
+## Common questions
 
-Below the runs tier sits the boots tier — titles that start, reach gameplay, and stop short of viability. It is the largest tier and the least interesting to read but the most important to track: it is raw material for the tiers above. The scene's history says today's boots list is a preview of next quarter's runs list — the promotion pattern has been consistent, and the boots tier's size relative to the playable tier measures how much progress is "already in the pipeline."
+**Does this page confirm a 54 FPS result on an RTX 4060?** No. This wiki does not have a reproducible test record supporting its previous unnamed example.
 
-## Checking Your Game
+**Is this a live list maintained by this wiki?** No. The links above lead to the projects' trackers. Their records can change after this page's review date.
 
-Three steps, in order: search this page's table for the title (statuses current as of the date shown); if unlisted, check the emulator project's own compatibility tracker — community results there appear before they consolidate here; if absent from both, the game is untested or below boots, and the answer is "not yet, watch the list." One caution in the strongest terms: fake emulator sites publish fake compatibility lists promising everything playable — a complete-looking list of every popular PS5 game running perfectly is the scam signature, not the scene's reality. The real list looks like progress; the fake list looks like magic.
-
-## FAQ
-
-**How often does this list update?** With the scene — each significant emulator release moves titles, and the page updates alongside. The date shown is the current snapshot's age.
-
-**Why is my favorite game not on the list?** Most likely unimplemented — the PS5 library is enormous and the scene is young. The boots tier and the project trackers show what is moving; everything else is queued behind architectural work that lands in waves.
-
-**Do playable games run at full 60 FPS?** The demonstrated results include titles sustaining the mid-fifties and above on mainstream hardware, with results scaling by GPU. Per-game and per-scene variance is real — the per-entry notes carry the specifics.
-
-**Does compatibility differ between emulators?** Yes — each project's list differs with its approach and pace. This page consolidates the field's best demonstrated results; per-project trackers carry the detail.
-
-**Can I contribute a result?** Community-replicated results are the page's currency — the project trackers and community spaces are where findings get reported and verified, and consolidated results flow into updates here.
-
-The scoreboard updates weekly. Bookmark it and watch the frontier move.
+**Where do I get AnyPS5?** Start with our [source-linked AnyPS5 guide](/emulators/anyps5-github) and the project's own documentation. This page distributes no game files.
