@@ -18,10 +18,10 @@ export function localizeHref(href: string, locale: string) {
 export async function SiteHeader({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: "nav" });
   const header = (
-    <div className="flex items-center justify-between gap-2 sm:gap-4">
-      <Link href={localizeHref("/", locale)} className="flex min-w-0 items-center gap-2 sm:gap-3">
-        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-border bg-muted text-sm font-black text-foreground">PS5</span>
-        <span className="min-w-0 break-words text-sm font-bold tracking-wide text-foreground">PS5 Emulator for PC Wiki</span>
+    <div className="flex items-center justify-between gap-4">
+      <Link href={localizeHref("/", locale)} className="flex items-center gap-3">
+        <span className="grid h-9 w-9 place-items-center rounded-xl border border-border bg-muted text-sm font-black text-foreground">PS5</span>
+        <span className="text-sm font-bold tracking-wide text-foreground">PS5 Emulator for PC Wiki</span>
       </Link>
       <nav className="hidden items-center gap-1 md:flex">
         {NAVIGATION_CONFIG.map((item) => (
@@ -30,7 +30,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
           </Link>
         ))}
       </nav>
-      <div className="flex shrink-0 items-center gap-1 sm:gap-2">
+      <div className="flex items-center gap-2">
         <LanguageSwitcher locale={locale} />
         <ThemeToggle label={t("toggleTheme")} />
         <Sheet>
@@ -64,7 +64,7 @@ export async function WikiSidebar({ locale, navGroups, currentPath }: { locale: 
 export async function SiteFooter({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: "footer" });
   const site = await getTranslations({ locale, namespace: "site" });
-  return <footer className="mt-16 border-t border-border bg-card/30"><div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8"><div className="mb-10 rounded-2xl border border-border bg-muted/40 p-5"><div className="font-bold text-foreground">PS5 Emulator for PC Wiki</div><p className="mt-1 text-sm text-muted-foreground">{t("description")}</p><div className="mt-3 flex flex-wrap items-center gap-4"><Link href="https://github.com/KytyPS5/KytyPS5" className="inline-flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme))]">{t("quickLinks")} <ExternalLink className="h-4 w-4" /></Link><Link href="/catalog" className="inline-flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme))]">All Pages <ExternalLink className="h-4 w-4" /></Link></div></div><p className="mb-8 text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">{site("legalNotice")}</p><div className="grid gap-8 md:grid-cols-4"><div className="md:col-span-2"><h3 className="font-bold text-foreground">{t("aboutTitle")}</h3><p className="mt-3 max-w-xl text-sm leading-7 text-muted-foreground">{t("about")}</p></div><FooterList title={t("quickLinks")} links={[[t("playGame"), "https://github.com/KytyPS5/KytyPS5"], [t("officialYoutube"), "https://www.reddit.com/r/emulation/"]]} /><FooterList title={t("guides")} links={[[t("beginnerGuide"), "/guide/ps5-emulator-for-pc-guide"], [t("mapGuides"), "/emulators/kyty-ps5"], [t("weaponsGuides"), "/compatibility/compatible-games-list"], [t("buildGuide"), "/tips/safe-download-guide"], [t("privacyPolicy"), "/privacy-policy"], [t("termsOfService"), "/terms-of-service"]]} /></div><p className="mt-10 border-t border-border pt-6 text-xs text-muted-foreground">{t("copyright")}</p></div></footer>;
+  return <footer className="mt-16 border-t border-border bg-card/30"><div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8"><div className="mb-10 rounded-2xl border border-border bg-muted/40 p-5"><div className="font-bold text-foreground">PS5 Emulator for PC Wiki</div><p className="mt-1 text-sm text-muted-foreground">{t("description")}</p><div className="mt-3 flex flex-wrap items-center gap-4"><Link href="https://github.com/" className="inline-flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme))]">{t("quickLinks")} <ExternalLink className="h-4 w-4" /></Link><Link href="/catalog" className="inline-flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme))]">All Pages <ExternalLink className="h-4 w-4" /></Link></div></div><p className="mb-8 text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">{site("legalNotice")}</p><div className="grid gap-8 md:grid-cols-4"><div className="md:col-span-2"><h3 className="font-bold text-foreground">{t("aboutTitle")}</h3><p className="mt-3 max-w-xl text-sm leading-7 text-muted-foreground">{t("about")}</p></div><FooterList title={t("quickLinks")} links={[[t("playGame"), "https://github.com/"], [t("officialYoutube"), "https://www.reddit.com/r/emulation/"]]} /><FooterList title={t("guides")} links={[[t("beginnerGuide"), "/guide/ps5-emulator-for-pc-guide"], [t("mapGuides"), "/emulators/kyty-ps5"], [t("weaponsGuides"), "/compatibility/compatible-games-list"], [t("buildGuide"), "/tips/safe-download-guide"], [t("privacyPolicy"), "/privacy-policy"], [t("termsOfService"), "/terms-of-service"]]} /></div><p className="mt-10 border-t border-border pt-6 text-xs text-muted-foreground">{t("copyright")}</p></div></footer>;
 }
 
 function FooterList({ title, links }: { title: string; links: string[][] }) { return <div><h4 className="font-semibold text-foreground">{title}</h4><ul className="mt-3 space-y-2 text-sm text-muted-foreground">{links.map(([label, href]) => <li key={href}><Link className="hover:text-foreground" href={href}>{label}</Link></li>)}</ul></div>; }
