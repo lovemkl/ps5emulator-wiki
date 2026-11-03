@@ -1,0 +1,550 @@
+{
+ "generatedAt": "2026-11-03T14:15:57.210Z",
+ "items": [
+  {
+   "contentType": "compatibility",
+   "slug": "compatible-games-list",
+   "title": "The PS5 Emulator Compatible Games List: What Really Runs",
+   "badge": "Live List",
+   "date": "2026-10-15",
+   "category": "compatibility",
+   "headings": [
+    {
+     "id": "how-to-read-this-list",
+     "text": "How to Read This List",
+     "level": 2
+    },
+    {
+     "id": "the-current-playable-frontier",
+     "text": "The Current Playable Frontier",
+     "level": 2
+    },
+    {
+     "id": "what-runs-with-caveats",
+     "text": "What Runs With Caveats",
+     "level": 2
+    },
+    {
+     "id": "the-boots-tier-and-the-pattern-below-it",
+     "text": "The Boots Tier and the Pattern Below It",
+     "level": 2
+    },
+    {
+     "id": "checking-your-game",
+     "text": "Checking Your Game",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "compatibility",
+   "slug": "pc-requirements",
+   "title": "PC Requirements for PS5 Emulation: Real Hardware Results",
+   "badge": "Hardware",
+   "date": "2026-10-15",
+   "category": "compatibility",
+   "headings": [
+    {
+     "id": "the-one-line-answer",
+     "text": "The One-Line Answer",
+     "level": 2
+    },
+    {
+     "id": "demonstrated-results-by-gpu-class",
+     "text": "Demonstrated Results by GPU Class",
+     "level": 2
+    },
+    {
+     "id": "cpu-and-ram-the-underrated-half",
+     "text": "CPU and RAM: The Underrated Half",
+     "level": 2
+    },
+    {
+     "id": "the-storage-and-peripheral-fine-print",
+     "text": "The Storage and Peripheral Fine Print",
+     "level": 2
+    },
+    {
+     "id": "locating-your-machine-on-the-curve",
+     "text": "Locating Your Machine on the Curve",
+     "level": 2
+    },
+    {
+     "id": "the-upgrade-question-answered-honestly",
+     "text": "The Upgrade Question, Answered Honestly",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "compatibility",
+   "slug": "ps5x-compatible-games",
+   "title": "PS5X Compatible Games on Xbox Series X: Live List",
+   "badge": "Live List",
+   "date": "2026-10-19",
+   "category": "compatibility",
+   "headings": [
+    {
+     "id": "verified-commercial-titles",
+     "text": "Verified Commercial Titles",
+     "level": 2
+    },
+    {
+     "id": "homebrew-and-backups",
+     "text": "Homebrew and Backups",
+     "level": 2
+    },
+    {
+     "id": "how-the-list-grows",
+     "text": "How the List Grows",
+     "level": 2
+    },
+    {
+     "id": "what-boots-means-in-practice",
+     "text": "What \"Boots\" Means in Practice",
+     "level": 2
+    },
+    {
+     "id": "tracking-updates",
+     "text": "Tracking Updates",
+     "level": 2
+    },
+    {
+     "id": "xbox-series-x-versus-a-pc-for-ps5-emulation",
+     "text": "Xbox Series X Versus a PC for PS5 Emulation",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "emulators",
+   "slug": "anyps5-and-sharpemu",
+   "title": "AnyPS5, SharpEmu and Every Real Project Compared",
+   "badge": "Compared",
+   "date": "2026-10-15",
+   "category": "emulators",
+   "headings": [
+    {
+     "id": "the-field-at-a-glance",
+     "text": "The Field at a Glance",
+     "level": 2
+    },
+    {
+     "id": "anyps5-the-new-generation-bet",
+     "text": "AnyPS5: The New-Generation Bet",
+     "level": 2
+    },
+    {
+     "id": "sharpemu-the-parallel-path",
+     "text": "SharpEmu: The Parallel Path",
+     "level": 2
+    },
+    {
+     "id": "how-to-compare-emulators-yourself",
+     "text": "How to Compare Emulators Yourself",
+     "level": 2
+    },
+    {
+     "id": "the-fakes-do-not-make-the-table",
+     "text": "The Fakes Do Not Make the Table",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "emulators",
+   "slug": "anyps5-github",
+   "title": "AnyPS5 on GitHub: Repo, Install Tutorial & FAQ (44k★)",
+   "badge": "Guide",
+   "date": "2026-10-20",
+   "category": "emulators",
+   "headings": [
+    {
+     "id": "the-real-anyps5-github-repository",
+     "text": "The Real AnyPS5 GitHub Repository",
+     "level": 2
+    },
+    {
+     "id": "what-anyps5-actually-is",
+     "text": "What AnyPS5 Actually Is",
+     "level": 2
+    },
+    {
+     "id": "install-tutorial-first-conversion-step-by-step",
+     "text": "Install Tutorial: First Conversion, Step by Step",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    },
+    {
+     "id": "is-anyps5-an-emulator",
+     "text": "Is AnyPS5 an emulator?",
+     "level": 3
+    },
+    {
+     "id": "where-is-the-official-anyps5-github",
+     "text": "Where is the official AnyPS5 GitHub?",
+     "level": 3
+    },
+    {
+     "id": "is-anyps5-safe-and-legal",
+     "text": "Is AnyPS5 safe and legal?",
+     "level": 3
+    },
+    {
+     "id": "can-it-run-ps5-games-yet",
+     "text": "Can it run PS5 games yet?",
+     "level": 3
+    },
+    {
+     "id": "does-it-work-on-mac",
+     "text": "Does it work on Mac?",
+     "level": 3
+    },
+    {
+     "id": "why-does-a-converted-game-refuse-to-start",
+     "text": "Why does a converted game refuse to start?",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "contentType": "emulators",
+   "slug": "kyty-ps5",
+   "title": "Kyty PS5: The Emulator Leading the Race",
+   "badge": "Front-Runner",
+   "date": "2026-10-15",
+   "category": "emulators",
+   "headings": [
+    {
+     "id": "the-project-in-one-paragraph",
+     "text": "The Project in One Paragraph",
+     "level": 2
+    },
+    {
+     "id": "why-kyty-owns-the-conversation",
+     "text": "Why Kyty Owns the Conversation",
+     "level": 2
+    },
+    {
+     "id": "what-running-kyty-is-actually-like",
+     "text": "What Running Kyty Is Actually Like",
+     "level": 2
+    },
+    {
+     "id": "the-xbox-plot-twist-kyty-on-ps5x",
+     "text": "The Xbox Plot Twist: Kyty on PS5X",
+     "level": 2
+    },
+    {
+     "id": "expectations-and-etiquette",
+     "text": "Expectations and Etiquette",
+     "level": 2
+    },
+    {
+     "id": "the-trajectory",
+     "text": "The Trajectory",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "emulators",
+   "slug": "ps5-emulator-field-guide",
+   "title": "PS5 Emulator: What",
+   "badge": "Field Guide",
+   "date": "2026-10-22",
+   "category": "emulators",
+   "headings": [
+    {
+     "id": "the-real-projects-2026",
+     "text": "The Real Projects (2026)",
+     "level": 2
+    },
+    {
+     "id": "why-this-generation-is-different",
+     "text": "Why This Generation Is Different",
+     "level": 2
+    },
+    {
+     "id": "the-fake-emulator-playbook",
+     "text": "The Fake Emulator Playbook",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    },
+    {
+     "id": "is-there-a-working-ps5-emulator-in-2026",
+     "text": "Is there a working PS5 emulator in 2026?",
+     "level": 3
+    },
+    {
+     "id": "are-free-ps5-emulator-downloads-safe",
+     "text": "Are free PS5 emulator downloads safe?",
+     "level": 3
+    },
+    {
+     "id": "do-i-need-a-ps5-bios-or-firmware",
+     "text": "Do I need a PS5 BIOS or firmware?",
+     "level": 3
+    },
+    {
+     "id": "which-ps5-emulator-should-i-try-first",
+     "text": "Which PS5 emulator should I try first?",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "how-to-run-ps5-games-on-pc",
+   "title": "How to Run PS5 Games on PC: The Kyty Setup Walkthrough",
+   "badge": "Setup",
+   "date": "2026-10-15",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "before-you-start-the-two-non-negotiables",
+     "text": "Before You Start: The Two Non-Negotiables",
+     "level": 2
+    },
+    {
+     "id": "installing-kyty-ps5",
+     "text": "Installing Kyty PS5",
+     "level": 2
+    },
+    {
+     "id": "configuring-firmware-and-directories",
+     "text": "Configuring Firmware and Directories",
+     "level": 2
+    },
+    {
+     "id": "graphics-and-controller-settings",
+     "text": "Graphics and Controller Settings",
+     "level": 2
+    },
+    {
+     "id": "loading-your-first-game",
+     "text": "Loading Your First Game",
+     "level": 2
+    },
+    {
+     "id": "keeping-it-current",
+     "text": "Keeping It Current",
+     "level": 2
+    },
+    {
+     "id": "troubleshooting-the-first-hour",
+     "text": "Troubleshooting the First Hour",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "ps5-emulator-for-pc-guide",
+   "title": "PS5 Emulator for PC: The Complete 2026 Guide",
+   "badge": "Start Here",
+   "date": "2026-10-15",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "what-a-ps5-emulator-for-pc-actually-is",
+     "text": "What a PS5 Emulator for PC Actually Is",
+     "level": 2
+    },
+    {
+     "id": "which-projects-are-real-and-which-are-not",
+     "text": "Which Projects Are Real (and Which Are Not)",
+     "level": 2
+    },
+    {
+     "id": "how-far-emulation-has-actually-come",
+     "text": "How Far Emulation Has Actually Come",
+     "level": 2
+    },
+    {
+     "id": "what-it-takes-to-run-one",
+     "text": "What It Takes to Run One",
+     "level": 2
+    },
+    {
+     "id": "the-legal-frame-stated-once",
+     "text": "The Legal Frame, Stated Once",
+     "level": 2
+    },
+    {
+     "id": "your-next-steps",
+     "text": "Your Next Steps",
+     "level": 2
+    },
+    {
+     "id": "where-this-guide-sits-in-the-tracker",
+     "text": "Where This Guide Sits in the Tracker",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "ps5-games-on-xbox-series-x",
+   "title": "PS5 Games on Xbox Series X: The PS5X Breakthrough",
+   "badge": "Breaking",
+   "date": "2026-10-19",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "what-ps5x-actually-is",
+     "text": "What PS5X Actually Is",
+     "level": 2
+    },
+    {
+     "id": "how-ps5-games-run-on-xbox-hardware",
+     "text": "How PS5 Games Run on Xbox Hardware",
+     "level": 2
+    },
+    {
+     "id": "what-boots-today",
+     "text": "What Boots Today",
+     "level": 2
+    },
+    {
+     "id": "should-you-try-it-a-realistic-setup-guide",
+     "text": "Should You Try It? A Realistic Setup Guide",
+     "level": 2
+    },
+    {
+     "id": "why-the-ps5-games-on-xbox-story-matters",
+     "text": "Why the PS5 Games on Xbox Story Matters",
+     "level": 2
+    },
+    {
+     "id": "ps5-games-on-xbox-faq",
+     "text": "PS5 Games on Xbox: FAQ",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "tips",
+   "slug": "best-settings",
+   "title": "Best Settings for PS5 Emulation: The Kyty Tuning Guide",
+   "badge": "Tuning",
+   "date": "2026-10-15",
+   "category": "tips",
+   "headings": [
+    {
+     "id": "start-from-the-right-baseline",
+     "text": "Start From the Right Baseline",
+     "level": 2
+    },
+    {
+     "id": "resolution-native-first-always",
+     "text": "Resolution: Native First, Always",
+     "level": 2
+    },
+    {
+     "id": "upscaling-the-free-performance-when-supported",
+     "text": "Upscaling: The Free Performance When Supported",
+     "level": 2
+    },
+    {
+     "id": "the-per-game-settings-discipline",
+     "text": "The Per-Game Settings Discipline",
+     "level": 2
+    },
+    {
+     "id": "controllers-ten-seconds-that-save-an-evening",
+     "text": "Controllers: Ten Seconds That Save an Evening",
+     "level": 2
+    },
+    {
+     "id": "when-performance-disappoints-anyway",
+     "text": "When Performance Disappoints Anyway",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "tips",
+   "slug": "safe-download-guide",
+   "title": "Safe Downloads: How to Spot Fake PS5 Emulators",
+   "badge": "Safety",
+   "date": "2026-10-15",
+   "category": "tips",
+   "headings": [
+    {
+     "id": "why-the-fakes-exist-and-why-they-work",
+     "text": "Why the Fakes Exist and Why They Work",
+     "level": 2
+    },
+    {
+     "id": "what-real-emulation-looks-like",
+     "text": "What Real Emulation Looks Like",
+     "level": 2
+    },
+    {
+     "id": "the-detection-checklist",
+     "text": "The Detection Checklist",
+     "level": 2
+    },
+    {
+     "id": "if-you-already-downloaded-something-suspicious",
+     "text": "If You Already Downloaded Something Suspicious",
+     "level": 2
+    },
+    {
+     "id": "the-standing-rules",
+     "text": "The Standing Rules",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    }
+   ]
+  }
+ ]
+}
